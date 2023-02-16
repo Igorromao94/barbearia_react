@@ -1,0 +1,54 @@
+.header{
+  width: 100%;
+  height: 100px;
+  position: fixed;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 2px 0 10px 5px #b2987d;
+  background-color: white;
+}
+
+.inicio{
+  height: 100px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.limitador{
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.img_logo{
+  height: 120px;
+}
+
+.Botao_tema{
+  width: 120px;
+  height: 50px;
+  display: flex;
+  flex-flow: row nowrap ;
+  justify-content: space-around;
+  align-items: center;
+
+  border: solid #b2987d;
+  padding: 10px;
+  border-radius: 50px;
+
+
+}
+
+.img_moon{
+  height: 30px;
+}
+
+.Botao_tema label{
+  font-weight: bolder;
+}
